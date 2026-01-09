@@ -1,0 +1,43 @@
+body {
+  background: #0b0b0b;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #00ffcc;
+}
+
+textarea {
+  width: 90%;
+  height: 120px;
+  background: #111;
+  color: white;
+  border: 1px solid #00ffcc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  background: #00ffcc;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.4;
+}
+
+audio {
+  width: 90%;
+  margin-top: 10px;
+}
